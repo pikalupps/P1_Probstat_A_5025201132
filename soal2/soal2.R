@@ -20,6 +20,6 @@ nilai.rataan = n*p
 mean(rbinom(1000000, size = n, prob = p))
 
 # varians
-varians = (1 - p) / p^2
+varians = n*p*(1-p)
 # coba pada 1000000 data random
 var(rbinom(1000000, size = n, prob = p))
